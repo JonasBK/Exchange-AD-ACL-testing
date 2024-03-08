@@ -1,0 +1,479 @@
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-EHF-Connector
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : f5b6201a-7a35-4522-b9f0-8790b1595478
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : NT AUTHORITY\SYSTEM
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Mserv-Connector
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 6bfbb991-f11b-4a9f-b85e-6402e33f5390
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : NT AUTHORITY\SYSTEM
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Service-Config
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : NT AUTHORITY\SYSTEM
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Partner-Id
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 8ef36c16-55d8-4b4c-9a86-36da3844cf1e
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Transport-Site-Flags
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 9d87b436-f668-4887-97a6-792aa77d87be
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site-Link
+Object                : ms-Exch-Version
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 1280170a-3e6d-4382-a5ea-3a528e6ff510
+InheritedObjectType   : d50c2cde-8951-11d1-aebc-0000f80367c1
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site-Link
+Object                : ms-Exch-Cost
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 50c7d2b3-e584-4913-9e1e-8c8ca03c5186
+InheritedObjectType   : d50c2cde-8951-11d1-aebc-0000f80367c1
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Version
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 1280170a-3e6d-4382-a5ea-3a528e6ff510
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Minor-Partner-Id
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 693d97de-7f27-41f2-8dda-fd5942f0f253
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Responsible-For-Sites
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 41850907-48e5-49fc-a3d5-a0fce1e41c10
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Service-Config
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, WriteProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Service-Config
+Object                : ms-Exch-Edge-Sync-EHF-Connector
+ActiveDirectoryRights : CreateChild, DeleteChild, DeleteTree
+InheritanceType       : Descendents
+ObjectType            : f5b6201a-7a35-4522-b9f0-8790b1595478
+InheritedObjectType   : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Mserv-Connector
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, WriteProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 6bfbb991-f11b-4a9f-b85e-6402e33f5390
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Service-Config
+Object                : ms-Exch-Edge-Sync-Mserv-Connector
+ActiveDirectoryRights : CreateChild, DeleteChild, DeleteTree
+InheritanceType       : Descendents
+ObjectType            : 6bfbb991-f11b-4a9f-b85e-6402e33f5390
+InheritedObjectType   : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-EHF-Connector
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, WriteProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : f5b6201a-7a35-4522-b9f0-8790b1595478
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Edge-Sync-Service-Config
+ActiveDirectoryRights : CreateChild, DeleteChild, DeleteTree
+InheritanceType       : Children
+ObjectType            : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : NoPropagateInherit, InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Service-Config
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-EHF-Connector
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : f5b6201a-7a35-4522-b9f0-8790b1595478
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Mserv-Connector
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 6bfbb991-f11b-4a9f-b85e-6402e33f5390
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Edge-Sync-Service-Config
+ActiveDirectoryRights : CreateChild, DeleteChild, DeleteTree
+InheritanceType       : Children
+ObjectType            : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : NoPropagateInherit, InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Service-Config
+Object                : ms-Exch-Edge-Sync-Mserv-Connector
+ActiveDirectoryRights : CreateChild, DeleteChild, DeleteTree
+InheritanceType       : Descendents
+ObjectType            : 6bfbb991-f11b-4a9f-b85e-6402e33f5390
+InheritedObjectType   : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-EHF-Connector
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, WriteProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : f5b6201a-7a35-4522-b9f0-8790b1595478
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Service-Config
+Object                : ms-Exch-Edge-Sync-EHF-Connector
+ActiveDirectoryRights : CreateChild, DeleteChild, DeleteTree
+InheritanceType       : Descendents
+ObjectType            : f5b6201a-7a35-4522-b9f0-8790b1595478
+InheritedObjectType   : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Mserv-Connector
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, WriteProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 6bfbb991-f11b-4a9f-b85e-6402e33f5390
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Minor-Partner-Id
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 693d97de-7f27-41f2-8dda-fd5942f0f253
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : ms-Exch-Edge-Sync-Service-Config
+Object                : 
+ActiveDirectoryRights : ListChildren, ReadProperty, WriteProperty, ListObject
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 190e1bba-7bf3-4f6d-a93b-3a7f375c23d9
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site-Link
+Object                : ms-Exch-Cost
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 50c7d2b3-e584-4913-9e1e-8c8ca03c5186
+InheritedObjectType   : d50c2cde-8951-11d1-aebc-0000f80367c1
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Transport-Site-Flags
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 9d87b436-f668-4887-97a6-792aa77d87be
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Partner-Id
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 8ef36c16-55d8-4b4c-9a86-36da3844cf1e
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site-Link
+Object                : ms-Exch-Version
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 1280170a-3e6d-4382-a5ea-3a528e6ff510
+InheritedObjectType   : d50c2cde-8951-11d1-aebc-0000f80367c1
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Version
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 1280170a-3e6d-4382-a5ea-3a528e6ff510
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : CN=Sites,CN=Configuration,DC=external,DC=local
+InheritedObject       : Site
+Object                : ms-Exch-Responsible-For-Sites
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 41850907-48e5-49fc-a3d5-a0fce1e41c10
+InheritedObjectType   : bf967ab3-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added

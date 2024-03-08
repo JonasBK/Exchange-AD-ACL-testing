@@ -1,0 +1,29 @@
+ObjectDN              : CN=DnsAdmins,CN=Users,DC=external,DC=local
+InheritedObject       : 
+Object                : Managed-By
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 0296c120-40da-11d1-a9c0-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Deny
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Removed
+
+ObjectDN              : CN=DnsAdmins,CN=Users,DC=external,DC=local
+InheritedObject       : 
+Object                : Member
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf9679c0-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Deny
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Removed

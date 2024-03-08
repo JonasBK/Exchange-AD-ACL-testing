@@ -1,0 +1,1349 @@
+ObjectDN              : DC=external,DC=local
+InheritedObject       : Computer
+Object                : X509-Cert
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967a7f-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : bf967a86-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Deny
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : Computer
+Object                : Alt-Security-Identities
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 00fbf30c-91fe-11d1-aebc-0000f80367c1
+InheritedObjectType   : bf967a86-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Deny
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Service-Principal-Name
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Deny
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : Computer
+Object                : Managed-By
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 0296c120-40da-11d1-a9c0-0000f80367c1
+InheritedObjectType   : bf967a86-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Deny
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : 
+ActiveDirectoryRights : GenericRead
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : 
+ActiveDirectoryRights : GenericRead
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Exchange-Information
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : 1f298a89-de98-47b8-b5cd-572ad53d267e
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : NT AUTHORITY\Authenticated Users
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Exchange-Personal-Information
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : b1b3a417-ec55-4191-b327-b72e33e38af2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : NT AUTHORITY\NETWORK SERVICE
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : E-mail-Addresses
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967961-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Proxy-Addresses
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967a06-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Dynamic-Distribution-List
+ActiveDirectoryRights : GenericAll
+InheritanceType       : All
+ObjectType            : 018849b0-a981-11d2-a9ff-00c04f8eedd8
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Data-Encryption-Policy-Link
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : a673a21e-e65e-43a6-ac59-7e4bfdeb9fb8
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Admin-Display-Name
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf96791a-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Legacy-Exchange-DN
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 28630ebc-41d5-11d1-a9c1-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Display-Name-Printable
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967954-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Text-Encoded-OR-Address
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : a8df7489-c5ea-11d1-bbcb-0080c76670c0
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Exchange-Personal-Information
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : b1b3a417-ec55-4191-b327-b72e33e38af2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Exchange-Information
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 1f298a89-de98-47b8-b5cd-572ad53d267e
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Display-Name
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Public-Delegates
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : f0f8ff9a-1191-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Garbage-Coll-Period
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 5fd424a1-1262-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Show-In-Address-Book
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 3e74f60e-3e73-11d1-a9c0-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Organization Management
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : User-Account-Restrictions
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Delegated Setup
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-UM-Spoken-Name
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 2cc06e9d-6f7e-426a-8825-0215de176e11
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Public-Delegates
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : f0f8ff9a-1191-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-UM-Pin-Checksum
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 3263e3b8-fd6b-4c60-87f2-34bdaa9d69eb
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-User-Culture
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 275b2f54-982d-4dcd-b0ad-e53501445efb
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Blocked-Senders-Hash
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 66437984-c3c5-498f-b269-987819ef484b
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-UM-Dtmf-Map
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 614aea82-abc6-4dd0-a148-d67a59c72816
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : X509-Cert
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967a7f-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Safe-Senders-Hash
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 7cb4c7d3-8787-42b0-b438-3c5d479ad31e
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Safe-Recipients-Hash
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 6f606079-3a82-4c1b-8efb-dcc8c91d26fe
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Mobile-Mailbox-Flags
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 5430e777-c3ea-4024-902e-dde192204669
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Picture
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 8d3bca50-1d7e-11d0-a081-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : inetOrgPerson
+Object                : ms-Exch-Active-Sync-Devices
+ActiveDirectoryRights : CreateChild, DeleteChild, ListChildren
+InheritanceType       : Descendents
+ObjectType            : c975c901-6cea-4b6f-8319-d67f45449506
+InheritedObjectType   : 4828cc14-1437-45bc-9b07-ad6f015e5f28
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : User
+Object                : ms-Exch-Active-Sync-Devices
+ActiveDirectoryRights : CreateChild, DeleteChild, ListChildren
+InheritanceType       : Descendents
+ObjectType            : c975c901-6cea-4b6f-8319-d67f45449506
+InheritedObjectType   : bf967aba-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Active-Sync-Device
+ActiveDirectoryRights : CreateChild, DeleteChild, ListChildren, ReadProperty, WriteProperty, ListObject
+InheritanceType       : All
+ObjectType            : e8b2aff2-59a7-4eac-9a70-819adef701dd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : DS-Replication-Synchronize
+ActiveDirectoryRights : ExtendedRight
+InheritanceType       : None
+ObjectType            : 1131f6ab-9c07-11d1-f79f-00c04fc2dcd2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Group-Type
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 9a9a021e-4a5b-11d1-a9c3-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Exchange-Personal-Information
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : b1b3a417-ec55-4191-b327-b72e33e38af2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Canonical-Name
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : 9a7ad945-ca53-11d1-bbd0-0080c76670c0
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : User-Account-Control
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : bf967a68-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Exchange-Information
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : 1f298a89-de98-47b8-b5cd-572ad53d267e
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Is-Member-Of-DL
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : bf967991-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Garbage-Coll-Period
+ActiveDirectoryRights : ReadProperty
+InheritanceType       : All
+ObjectType            : 5fd424a1-1262-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-UM-Server-Writable-Flags
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 5e353847-f36c-48be-a7f7-49685402503c
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Mailbox-Security-Descriptor
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 934de926-b09e-11d2-aa06-00c04f8eedd8
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : ms-Exch-Active-Sync-Device
+Object                : 
+ActiveDirectoryRights : ReadProperty, WriteProperty, ListObject, Delete
+InheritanceType       : Children
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : e8b2aff2-59a7-4eac-9a70-819adef701dd
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : NoPropagateInherit, InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Data-Encryption-Policy-Link
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : a673a21e-e65e-43a6-ac59-7e4bfdeb9fb8
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Dynamic-Distribution-List
+ActiveDirectoryRights : GenericAll
+InheritanceType       : All
+ObjectType            : 018849b0-a981-11d2-a9ff-00c04f8eedd8
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Public-Folder
+ActiveDirectoryRights : CreateChild, DeleteChild, ListChildren, ReadProperty, WriteProperty, ListObject
+InheritanceType       : All
+ObjectType            : f0f8ffac-1191-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : ms-Exch-Active-Sync-Devices
+Object                : 
+ActiveDirectoryRights : GenericAll
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : c975c901-6cea-4b6f-8319-d67f45449506
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : ms-Exch-Public-Folder
+Object                : 
+ActiveDirectoryRights : GenericAll
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : f0f8ffac-1191-11d0-a060-00aa006c33ed
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Display-Name
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Admin-Display-Name
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf96791a-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Public-Information
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : e48d0154-bcf8-11d1-8702-00c04fb96050
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Exchange-Personal-Information
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : b1b3a417-ec55-4191-b327-b72e33e38af2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Legacy-Exchange-DN
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 28630ebc-41d5-11d1-a9c1-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Show-In-Address-Book
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 3e74f60e-3e73-11d1-a9c0-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Garbage-Coll-Period
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 5fd424a1-1262-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : ms-Exch-Public-Delegates
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : f0f8ff9a-1191-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Exchange-Information
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 1f298a89-de98-47b8-b5cd-572ad53d267e
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Text-Encoded-OR-Address
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : a8df7489-c5ea-11d1-bbcb-0080c76670c0
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Personal-Information
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 77b5b886-944a-11d1-aebd-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Display-Name-Printable
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967954-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : E-mail-Addresses
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967961-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Proxy-Addresses
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967a06-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Trusted Subsystem
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Pwd-Last-Set
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967a0a-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : User-Account-Control
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967a68-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Managed-By
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 0296c120-40da-11d1-a9c0-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : User
+Object                : 
+ActiveDirectoryRights : Delete, WriteDacl
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : bf967aba-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : inetOrgPerson
+Object                : 
+ActiveDirectoryRights : Delete, WriteDacl
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 4828cc14-1437-45bc-9b07-ad6f015e5f28
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : Contact
+Object                : 
+ActiveDirectoryRights : Delete
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 5cb41ed0-0e4c-11d0-a286-00aa003049e2
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : Organizational-Unit
+Object                : 
+ActiveDirectoryRights : Delete
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : bf967aa5-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : Group
+Object                : 
+ActiveDirectoryRights : Delete
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : bf967a9c-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Country-Code
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 5fd42471-1262-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Contact
+ActiveDirectoryRights : CreateChild
+InheritanceType       : All
+ObjectType            : 5cb41ed0-0e4c-11d0-a286-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : User
+ActiveDirectoryRights : CreateChild
+InheritanceType       : All
+ObjectType            : bf967aba-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Organizational-Unit
+ActiveDirectoryRights : CreateChild
+InheritanceType       : All
+ObjectType            : bf967aa5-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Group
+ActiveDirectoryRights : CreateChild
+InheritanceType       : All
+ObjectType            : bf967a9c-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Computer
+ActiveDirectoryRights : CreateChild
+InheritanceType       : All
+ObjectType            : bf967a86-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : inetOrgPerson
+ActiveDirectoryRights : CreateChild
+InheritanceType       : All
+ObjectType            : 4828cc14-1437-45bc-9b07-ad6f015e5f28
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : WWW-Home-Page
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf967a7a-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : Computer
+Object                : 
+ActiveDirectoryRights : Delete
+InheritanceType       : Descendents
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : bf967a86-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : InheritOnly
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : Member
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : bf9679c0-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : 
+Object                : SAM-Account-Name
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : All
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : inetOrgPerson
+Object                : 
+ActiveDirectoryRights : DeleteTree
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 4828cc14-1437-45bc-9b07-ad6f015e5f28
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : User
+Object                : 
+ActiveDirectoryRights : DeleteTree
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : bf967aba-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : User
+Object                : User-Force-Change-Password
+ActiveDirectoryRights : ExtendedRight
+InheritanceType       : All
+ObjectType            : 00299570-246d-11d0-a768-00aa006e0529
+InheritedObjectType   : bf967aba-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added
+
+ObjectDN              : DC=external,DC=local
+InheritedObject       : User
+Object                : User-Change-Password
+ActiveDirectoryRights : ExtendedRight
+InheritanceType       : All
+ObjectType            : ab721a53-1e2f-11d0-9819-00aa0040529b
+InheritedObjectType   : bf967aba-0de6-11d0-a285-00aa003049e2
+ObjectFlags           : ObjectAceTypePresent, InheritedObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Windows Permissions
+IsInherited           : False
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+SideIndicator         : ACE Added

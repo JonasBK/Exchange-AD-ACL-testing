@@ -1,0 +1,14 @@
+ObjectDN              : CN=Configuration,DC=external,DC=local
+InheritedObject       : 
+Object                : DS-Replication-Synchronize
+ActiveDirectoryRights : ExtendedRight
+InheritanceType       : None
+ObjectType            : 1131f6ab-9c07-11d1-f79f-00c04fc2dcd2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : EXTERNAL\Exchange Servers
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+SideIndicator         : ACE Added
